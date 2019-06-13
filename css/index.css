@@ -106,7 +106,8 @@ nav {
 
 .flex-nav {
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
+    margin: 30px;
 }
 
 
