@@ -222,7 +222,7 @@ address {
     }
 
     .flex-nav img {
-        max-width: 100%;
+        object-fit: contain:
     }
 
     .flex-header {
