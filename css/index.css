@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto; 
     display: flex;
     flex-flow: row wrap;
@@ -210,11 +210,11 @@ address {
     /* HEADER SECTION*/
     .container {
         /* background-color: grey; */
-        width: 800px;
+        width: 100%;
     }
     /*NAV BAR */
     .flex-nav {
-        width: 800px;
+        width: 100%;
         flex-direction: column-reverse;
         align-items: center;
         margin: 20px;
@@ -222,13 +222,15 @@ address {
     }
 
     .flex-nav img {
-        width: 300px;
+        max-width: 100%;
     }
 
     .flex-header {
-        width: 800px;
+        width: 100%;
         flex-direction: column;
         align-items: center;
+        padding: 20px;
+        margin: 25px;
     }
 
     .flex-header img {
@@ -236,7 +238,7 @@ address {
     }
    /*MAIN SECTION*/
     main {
-        width: 800px;
+        width: 100%;
     }
 
 }
