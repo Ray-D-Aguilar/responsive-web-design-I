@@ -207,16 +207,22 @@ address {
 }
 
 @media (max-width: 800px) {
+    /* HEADER SECTION*/
     .container {
         /* background-color: grey; */
         width: 800px;
     }
-
+    /*NAV BAR */
     .flex-nav {
         width: 800px;
         flex-direction: column-reverse;
+        align-items: center;
         margin: 20px;
         padding: 10px 1%;
+    }
+
+    .flex-nav img {
+        width: 300px;
     }
 
     .flex-header {
@@ -228,7 +234,10 @@ address {
     .flex-header img {
         display: none;
     }
-
+   /*MAIN SECTION*/
+    main {
+        width: 800px;
+    }
 
 }
 
