@@ -159,7 +159,7 @@
 
 
 
-  @media(max-width: 500px){
+  @media(max-width: 800px){
     .container {
         max-width: 90%;
         background: gray;
@@ -167,7 +167,7 @@
 
     .container a {
         color: black;
-        font-size: 10px;
+        /* font-size: 10px; */
     }
 
     .container .hide {
@@ -179,10 +179,13 @@
         flex-direction: column-reverse;
         max-width: 100%;
         align-items: center;
+        justify-content: center;
     }
 
     .container nav {
         width:  100%;
+        display: flex;
+        justify-content: space-around;
     }
 
     .container .logo {
