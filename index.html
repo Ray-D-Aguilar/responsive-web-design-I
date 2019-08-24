@@ -4,6 +4,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Great Idea!</title>
 
@@ -20,7 +21,8 @@
     <div>
       <!-- Header section/Nav bar-->
       <header>
-        <nav class="flex-nav"> <!-- Flex container for nav bar-->
+        <section class="flex-nav">
+        <nav> <!-- Flex container for nav bar-->
           <a class="NavLink" href="services.html">Services</a>
           <a class="NavLink" href="#">Product</a>
           <a class="NavLink" href="#">Vision</a>
@@ -28,13 +30,16 @@
           <a class="NavLink" href="#">About</a>
           <a class="NavLink" href="#">Contact</a>
 
-          <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+          
         </nav>
+
+        <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+      </section>
 
         <div class="flex-header">
           <div class="header">
             <!-- Header 1-->
-            <h1>
+            <h1 class="tablet-view">
               Innovation
               On
               Demand
@@ -47,7 +52,7 @@
           <div class="header">
             <!-- Header image -->
 
-            <img src="img/header-img.png" alt="Image of a code snippet.">
+            <img class="hide" src="img/header-img.png" alt="Image of a code snippet.">
           </div>
 
 
